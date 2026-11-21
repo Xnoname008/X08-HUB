@@ -97,6 +97,11 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 
 ## 📝 Latest Changelog & Updates
 
+### v2.6.5 — Developer Console Startup Banner & Real-time Execution Diagnostics (2026-11-22)
+- Developer Console Banner (F9): Added formatted startup banner displaying loaded status, detected game title, Place ID/Universe ID, execution mode, executor identity, and menu toggle keybind.
+- Execution Diagnostics: Added real-time log outputs to Developer Console whenever specific game modules, Universal Suite, or on-demand tools complete initialization.
+- Module Integration: Enhanced startup logs for loader-ori.lua, universal-main.lua, and game scripts (e.g. NGOBROL 120454553075568).
+
 ### v2.6.4 — Airflow UI Notification Anti-Spam & Zero-Lag Engine (2026-11-22)
 - Anti-Spam Deduplication: Identical notifications (Title + Content) within 2.0s are completely suppressed, preventing toast floods from repetitive events.
 - Global Cadence & Rate Limiter: Enforced 0.35s minimum interval between notification popups with a smooth burst queue (max 2 slots) and overflow dropping to prevent GPU stalls.
