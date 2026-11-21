@@ -97,10 +97,11 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 
 ## 📝 Latest Changelog & Updates
 
-### v2.6.5 — Minimalist Developer Console Output & Streamlined Diagnostics (2026-11-22)
-- Developer Console Streamlining (F9): Simplified startup logs into a concise, clean 2-line format without emoji or icon clutter.
-- Standardized Prefix: Unified execution logs across Hub Loader, Universal Suite, and Game Modules using clean [X08 Hub] / [X08 Universal] prefixes.
-- Zero Overhead: Minimized string concatenation and formatting overhead during console log emissions.
+### v2.6.5 — Minimalist Console Logs & Streamlined Text Interface (2026-11-22)
+- Console (F9): Format ringkas 2 baris tanpa emoji.
+- Prefix: Standarisasi log [X08 Hub] & [X08 Universal].
+- Performa: Optimasi kecepatan emisi log & hemat memori.
+- UI & Updates: Teks update dan notifikasi lebih singkat & jelas.
 
 ### v2.6.4 — Airflow UI Notification Anti-Spam & Zero-Lag Engine (2026-11-22)
 - Anti-Spam Deduplication: Identical notifications (Title + Content) within 2.0s are completely suppressed, preventing toast floods from repetitive events.
