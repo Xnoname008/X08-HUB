@@ -1,4 +1,4 @@
-VERSION : V2.6.3 (Standalone Multi-CDN)
+VERSION : V2.6.4 (Standalone Multi-CDN)
 DATE    : 11/22/2026
 STATUS  : UNDETECTED & SECURE
 
@@ -52,8 +52,8 @@ STATUS  : UNDETECTED & SECURE
 > Volleyball [73956553001240] - 🟢 Active
 > Volleyball Main [94450914651792] - 🟡 Maintenance
 
-[+] LATEST IMPROVEMENTS & SECURITY (v2.6.3)
-> NGOBROL Coin Claim Fix: Character now merges directly into the coin hitbox (continuous Stepped noclip & CanCollide disabled on coin and all limbs) eliminating physics bounce-off onto coin surface; triggers multi-part TouchInterest, ProximityPrompt, and ClickDetector.
-> Tab Deduplication Guard: Enforced singleton tab verification in universal-main.lua and loader-ori.lua to completely prevent duplicate Universal Utilities tabs or dual downloads in Settings.
-> Deprecation Warning Elimination: Silenced TextChatMessage.Text deprecation warnings in Developer Console by delegating chat monitoring cleanly to player.Chatted.
-> Universal Suite Performance: Eliminated framedrops and freezes by throttling WallWalk raycasts (30 FPS), caching RaycastParams across PlayerManager, and introducing sliced non-blocking traversal in WorldManager (FreezeNPCs, FPSBoost restore, Radar).
+[+] LATEST IMPROVEMENTS & SECURITY (v2.6.4)
+> Anti-Spam Deduplication: Identical notifications (Title + Content) within 2.0s are completely suppressed, preventing toast floods from repetitive events.
+> Global Cadence & Rate Limiter: Enforced 0.35s minimum interval between notification popups with a smooth burst queue (max 2 slots) and overflow dropping to prevent GPU stalls.
+> Screen Toast Cap: Enforced MaxNotifications = 3 on Airflow window configuration to eliminate CanvasGroup and shadow rendering bottlenecks.
+> Hitlog Throttling: Added per-victim 0.3s cooldown on Hit Registered notifications in PlayerManager to prevent automatic weapon spray from lagging the UI.

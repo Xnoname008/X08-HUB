@@ -97,6 +97,12 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 
 ## 📝 Latest Changelog & Updates
 
+### v2.6.4 — Airflow UI Notification Anti-Spam & Zero-Lag Engine (2026-11-22)
+- Anti-Spam Deduplication: Identical notifications (Title + Content) within 2.0s are completely suppressed, preventing toast floods from repetitive events.
+- Global Cadence & Rate Limiter: Enforced 0.35s minimum interval between notification popups with a smooth burst queue (max 2 slots) and overflow dropping to prevent GPU stalls.
+- Screen Toast Cap: Enforced MaxNotifications = 3 on Airflow window configuration to eliminate CanvasGroup and shadow rendering bottlenecks.
+- Hitlog Throttling: Added per-victim 0.3s cooldown on Hit Registered notifications in PlayerManager to prevent automatic weapon spray from lagging the UI.
+
 ### v2.6.3 — Coin Claim Merging, Tab Deduplication, and Universal Freeze/Lag Elimination (2026-11-21)
 - NGOBROL Coin Claim Fix: Character now merges directly into the coin hitbox (continuous Stepped noclip & CanCollide disabled on coin and all limbs) eliminating physics bounce-off onto coin surface; triggers multi-part TouchInterest, ProximityPrompt, and ClickDetector.
 - Tab Deduplication Guard: Enforced singleton tab verification in universal-main.lua and loader-ori.lua to completely prevent duplicate Universal Utilities tabs or dual downloads in Settings.
