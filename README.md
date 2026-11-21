@@ -93,5 +93,31 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 
 ---
 
+<!-- AUTO_CHANGELOG_START -->
+
+## 📝 Latest Changelog & Updates
+
+### v2.6.2 — Comprehensive Security Hardening & Zero-RCE Architecture (2026-11-21)
+- Supply Chain Defense: Eliminated remote dynamic loadstring execution; converted analytics to zero-execution safe HTTP POST.
+- Third-Party Isolation: Removed untrusted external UI fallbacks; enforced 100% internal multi-CDN mirrors.
+- Cryptographic Salt Encapsulation: Removed X08_SERVER_SALT from global scopes (_G and getgenv()); encapsulated in private SecurityCore closure.
+- Anti-Tamper Cache Engine: Protected _G.X08_CacheEngine with table freezing and immutable X08_Protected proxy metatable.
+
+### v2.6.1 — Framedrop Elimination, High-Throughput Startup & Engine Optimization (2026-11-21)
+- Startup Speed Acceleration: Added 0.00ms in-memory cache hit, tuned initial crypto budget to 25ms, and reduced sync timeout to 0.15s.
+- Framedrop Fixes: Throttled ESP and unthrottled loops in Universal Suite, MM2, BedWars, Blox Fruits, and Arsenal.
+- Character Stability: Fixed upright standing physics & anti-ragdoll motor joints in NGOBROL (120454553075568).
+- Bug Fix: Fixed duplicate tab download bug when clicking Universal Utilities in Settings.
+
+### v2.6.0 — Standalone Multi-CDN Release & Airflow UI Framework (2026-11-20)
+- Multi-CDN Distribution: Distributed across jsDelivr, GitHub Raw, and Statically with instant background invalidation.
+- Airflow UI: Integrated dark-plum UI framework with 1,715 official Lucide icons & 60 FPS mobile optimization.
+- Localization Engine: Added automatic language detection supporting 12 languages.
+- Zero-Stall Manifest: Introduced Adler-32 fastChecksum verification manifest.
+
+<!-- AUTO_CHANGELOG_END -->
+
+---
+
 ## 🛡️ Executor Compatibility
 🟢 Delta Mobile, Codex, Arceus X, Fluxus, Hydrogen, Xeno, Wave, Synapse Z (100% Compatible).
