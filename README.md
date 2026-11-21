@@ -102,6 +102,7 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 - Prefix: Standarisasi log [X08 Hub] & [X08 Universal].
 - Performa: Optimasi kecepatan emisi log & hemat memori.
 - UI & Updates: Teks update dan notifikasi lebih singkat & jelas.
+- Dual-Repo: Otomatisasi push ke X08-HUB-DECODE & X08-HUB.
 
 ### v2.6.4 — Airflow UI Notification Anti-Spam & Zero-Lag Engine (2026-11-22)
 - Anti-Spam Deduplication: Identical notifications (Title + Content) within 2.0s are completely suppressed, preventing toast floods from repetitive events.

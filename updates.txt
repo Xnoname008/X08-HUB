@@ -7,3 +7,4 @@ STATUS  : Multi-CDN Online | 43 Games Supported
 • Prefix: Standarisasi log [X08 Hub] & [X08 Universal].
 • Performa: Optimasi kecepatan emisi log & hemat memori.
 • UI & Updates: Teks update dan notifikasi lebih singkat & jelas.
+• Dual-Repo: Otomatisasi push ke X08-HUB-DECODE & X08-HUB.
