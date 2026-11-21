@@ -1,0 +1,13 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs & Temporary
+*.log
+*.tmp
+*.bak
+
+# Node & Secrets
+node_modules/
+.env
+.env.*
