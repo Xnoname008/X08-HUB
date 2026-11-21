@@ -1,5 +1,5 @@
-VERSION : V2.6.2 (Standalone Multi-CDN)
-DATE    : 11/21/2026
+VERSION : V2.6.3 (Standalone Multi-CDN)
+DATE    : 11/22/2026
 STATUS  : UNDETECTED & SECURE
 
 [+] SYSTEM STATUS
@@ -52,8 +52,8 @@ STATUS  : UNDETECTED & SECURE
 > Volleyball [73956553001240] - 🟢 Active
 > Volleyball Main [94450914651792] - 🟡 Maintenance
 
-[+] LATEST IMPROVEMENTS & SECURITY (v2.6.2)
-> Supply Chain Defense: Eliminated remote dynamic loadstring execution; converted analytics to zero-execution safe HTTP POST.
-> Third-Party Isolation: Removed untrusted external UI fallbacks; enforced 100% internal multi-CDN mirrors.
-> Cryptographic Salt Encapsulation: Removed X08_SERVER_SALT from global scopes (_G and getgenv()); encapsulated in private SecurityCore closure.
-> Anti-Tamper Cache Engine: Protected _G.X08_CacheEngine with table freezing and immutable X08_Protected proxy metatable.
+[+] LATEST IMPROVEMENTS & SECURITY (v2.6.3)
+> NGOBROL Coin Claim Fix: Character now merges directly into the coin hitbox (continuous Stepped noclip & CanCollide disabled on coin and all limbs) eliminating physics bounce-off onto coin surface; triggers multi-part TouchInterest, ProximityPrompt, and ClickDetector.
+> Tab Deduplication Guard: Enforced singleton tab verification in universal-main.lua and loader-ori.lua to completely prevent duplicate Universal Utilities tabs or dual downloads in Settings.
+> Deprecation Warning Elimination: Silenced TextChatMessage.Text deprecation warnings in Developer Console by delegating chat monitoring cleanly to player.Chatted.
+> Universal Suite Performance: Eliminated framedrops and freezes by throttling WallWalk raycasts (30 FPS), caching RaycastParams across PlayerManager, and introducing sliced non-blocking traversal in WorldManager (FreezeNPCs, FPSBoost restore, Radar).

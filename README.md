@@ -97,6 +97,12 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 
 ## 📝 Latest Changelog & Updates
 
+### v2.6.3 — Coin Claim Merging, Tab Deduplication, and Universal Freeze/Lag Elimination (2026-11-21)
+- NGOBROL Coin Claim Fix: Character now merges directly into the coin hitbox (continuous Stepped noclip & CanCollide disabled on coin and all limbs) eliminating physics bounce-off onto coin surface; triggers multi-part TouchInterest, ProximityPrompt, and ClickDetector.
+- Tab Deduplication Guard: Enforced singleton tab verification in universal-main.lua and loader-ori.lua to completely prevent duplicate Universal Utilities tabs or dual downloads in Settings.
+- Deprecation Warning Elimination: Silenced TextChatMessage.Text deprecation warnings in Developer Console by delegating chat monitoring cleanly to player.Chatted.
+- Universal Suite Performance: Eliminated framedrops and freezes by throttling WallWalk raycasts (30 FPS), caching RaycastParams across PlayerManager, and introducing sliced non-blocking traversal in WorldManager (FreezeNPCs, FPSBoost restore, Radar).
+
 ### v2.6.2 — Comprehensive Security Hardening & Zero-RCE Architecture (2026-11-21)
 - Supply Chain Defense: Eliminated remote dynamic loadstring execution; converted analytics to zero-execution safe HTTP POST.
 - Third-Party Isolation: Removed untrusted external UI fallbacks; enforced 100% internal multi-CDN mirrors.
