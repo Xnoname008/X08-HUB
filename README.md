@@ -1,50 +1,44 @@
-# X08 Hub — Enterprise Roblox Script Hub
+# X08 Hub — Public Production Distribution
 
 <div align="center">
   <img src="assets/x08-logo.png" alt="X08 Hub Logo" width="160" />
-  <p><strong>Universal & Game-Specific Script Suite for Roblox</strong></p>
-  <p>Ditenagai oleh UI Framework modern Airflow, High-Speed Multi-CDN Delivery, dan Universal Exploit Engine.</p>
+  <h3>Universal & Game-Specific Script Suite for Roblox</h3>
+  <p>Production distribution repo for <strong>X08 Hub</strong>, optimized for high-speed multi-CDN delivery via jsDelivr, Raw GitHub, and Statically.</p>
 </div>
 
 ---
 
-## ⚡ Cara Menjalankan (Universal One-Line Loader)
+## ⚡ Cara Menjalankan di Roblox Executor
 
 Salin salah satu kode berikut ke executor Roblox Anda (Delta Mobile, Codex, Arceus X, Fluxus, Hydrogen, Synapse Z, Xeno, Wave):
 
-### Pilihan 1: Fast CDN (jsDelivr - Rekomendasi Asia & Global)
+### Pilihan 1: Fast CDN (jsDelivr - Rekomendasi Utama Asia & Global)
 ```lua
-loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/denoyey/X08-HUB@main/loader.lua"))()
+loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/Xnoname008/X08-HUB@main/loader.lua"))()
 ```
 
 ### Pilihan 2: Official Raw GitHub
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/denoyey/X08-HUB/main/loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xnoname008/X08-HUB/main/loader.lua"))()
 ```
 
 ### Pilihan 3: Statically Edge CDN
 ```lua
-loadstring(game:HttpGet("https://cdn.statically.io/gh/denoyey/X08-HUB@main/loader.lua"))()
+loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/loader.lua"))()
 ```
 
 ---
 
 ## 🌟 Fitur Utama
-
-- **Clean Instant Startup (<0.05s):** Tanpa splash screen yang memblokir layar, langsung tampil di game.
-- **Game-Exclusive Mode:** Mengalokasikan 100% resource untuk game yang sedang dimainkan (RAM hemat ~70% di mobile).
-- **Universal Exploit Suite (On-Demand):**
-  - **Combat:** Silent Aim, FOV Circle, Target Priority, Hitbox Expander, Auto Clicker.
-  - **Movement:** WalkSpeed, JumpPower, Infinite Jump, Fly, Noclip, Click TP, Anti-Fling.
-  - **Visuals (ESP):** Box 2D, Tracers, Names, Healthbar, Distance, Team Check, Chams.
-  - **World & Server:** Server Hop, Rejoin, Full Bright, Anti-AFK, Remove Textures (FPS Booster).
-- **Airflow UI Framework:** Tampilan dark-plum elegan dengan 1,720+ Lucide icons dan interaktivitas mulus.
-- **Auto Localization (12 Bahasa):** Otomatis mendeteksi bahasa player (Indonesia, English, Spanish, Portuguese, Russian, Japanese, Korean, Vietnamese, Thai, Chinese, Turkish, Arabic).
-- **Device-Bound Encrypted Local Caching:** Menyimpan script terenkripsi di folder lokal executor untuk warm start instan tanpa jeda download.
+- **Instant Clean Startup:** Tanpa splash screen yang memblokir layar, siap pakai dalam <0.05s.
+- **Game-Exclusive Mode:** Fokus 100% resource untuk game yang sedang dimainkan (hemat RAM hingga ~70% di mobile).
+- **Universal Exploit Suite (On-Demand):** Silent Aim, ESP 2D, Tracers, Fly, Speed, Noclip, Click TP, Anti-AFK, Auto Clicker.
+- **Airflow UI Framework:** Dark-plum UI elegan dengan 1,720+ Lucide icons.
+- **Auto-Localization 12 Bahasa:** Deteksi otomatis bahasa OS / Roblox client (Indonesia, English, Spanish, Portuguese, Russian, Japanese, Korean, dll).
 
 ---
 
-## 🎮 Daftar Game yang Didukung (43 Games)
+## 🎮 Game yang Didukung (43 Games)
 
 | No | Game Name | Place ID |
 |:---|:---|:---|
@@ -60,34 +54,12 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/denoyey/X08-HUB@main/loade
 | 10 | Da Hood | `2788229376` |
 | 11 | Fisch | `16732694052` |
 | 12 | The Strongest Battlegrounds | `10449761463` |
-| 13 | Toilet Tower Defense | `13775256536` |
-| 14 | Steal A Friend | `121868512253414` |
-| 15 | Save the Krusty Krab | `129332901430212` |
-| 16 | Tower of Hell | `1962086868` |
-| 17 | BedWars | `6872265039` |
-| ... | *Dan 26+ game Roblox lainnya.* | *Auto-detected* |
-
-*Catatan: Game yang tidak ada dalam daftar di atas otomatis menjalankan **X08 Universal Exploit Suite** secara penuh.*
+| 13 | Steal A Friend | `121868512253414` |
+| 14 | Save the Krusty Krab | `129332901430212` |
+| 15 | BedWars | `6872265039` |
+| ... | *Dan 28+ game lainnya.* | *Auto-detected* |
 
 ---
 
 ## 🛡️ Kompatibilitas Executor
-
-| Executor | Platform | Status |
-|:---|:---|:---|
-| **Delta** | Android / iOS / PC | 🟢 100% Kompatibel |
-| **Codex** | Android / iOS / PC | 🟢 100% Kompatibel |
-| **Arceus X** | Android / iOS | 🟢 100% Kompatibel |
-| **Fluxus** | Android / PC | 🟢 100% Kompatibel |
-| **Hydrogen** | Android / Mac | 🟢 100% Kompatibel |
-| **Xeno** | PC (Windows) | 🟢 100% Kompatibel |
-| **Wave** | PC (Windows) | 🟢 100% Kompatibel |
-| **Synapse Z** | PC (Windows) | 🟢 100% Kompatibel |
-
----
-
-## 📄 Lisensi & Disclaimer
-
-Skrip ini dibuat untuk tujuan edukasi dan pengembangan interface UI Roblox. Penggunaan fitur otomatisasi di dalam game sepenuhnya merupakan tanggung jawab pengguna.
-
-© 2026 X08 Hub. All rights reserved.
+🟢 Delta Mobile, Codex, Arceus X, Fluxus, Hydrogen, Xeno, Wave, Synapse Z (100% Kompatibel).

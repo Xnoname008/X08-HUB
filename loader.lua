@@ -1,7 +1,7 @@
 -- =============================================================================
 -- X08 Hub — Multi-CDN Standalone Enterprise Loader
 -- =============================================================================
--- Repository: https://github.com/denoyey/X08-HUB
+-- GitHub Repository: https://github.com/Xnoname008/X08-HUB
 -- Multi-CDN Endpoints:
 --   1. jsDelivr CDN (Jakarta / Singapore / Global Edge): Low-latency & High Speed
 --   2. Raw GitHub CDN (Official raw user content)
@@ -11,7 +11,6 @@
 --   Delta Mobile, Codex, Arceus X, Fluxus, Hydrogen, Synapse Z, Xeno, Wave, etc.
 -- =============================================================================
 
--- Pastikan game Roblox sudah fully loaded
 if not game:IsLoaded() then
     pcall(function()
         if game.Loaded then
@@ -107,9 +106,9 @@ end
 
 -- Multi-CDN Endpoints untuk main.lua
 local CDN_SOURCES = {
-    "https://cdn.jsdelivr.net/gh/denoyey/X08-HUB@main/main.lua",
-    "https://raw.githubusercontent.com/denoyey/X08-HUB/main/main.lua",
-    "https://cdn.statically.io/gh/denoyey/X08-HUB/main/main.lua"
+    "https://cdn.jsdelivr.net/gh/Xnoname008/X08-HUB@main/main.lua",
+    "https://raw.githubusercontent.com/Xnoname008/X08-HUB/main/main.lua",
+    "https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/main.lua"
 }
 
 local mainScript = nil
