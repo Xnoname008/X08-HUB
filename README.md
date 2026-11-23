@@ -41,7 +41,7 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 
 <!-- AUTO_GAMES_START -->
 
-## 🎮 Supported Experiences (43 Games)
+## 🎮 Supported Experiences (44 Games)
 
 | No | Game Title | Place ID | Status |
 |:---|:---|:---|:---|
@@ -88,6 +88,7 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 | 41 | **Violence District** | `93978595733734` | 🟢 Active |
 | 42 | **Volleyball** | `73956553001240` | 🟢 Active |
 | 43 | **Volleyball Main** | `94450914651792` | 🟡 Maintenance |
+| 44 | **Warnetopia** | `106267220422944` | 🟢 Active |
 
 <!-- AUTO_GAMES_END -->
 

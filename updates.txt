@@ -1,6 +1,6 @@
 VERSION : V2.6.5 (UNDETECTED & SECURE)
-DATE    : 11/22/2026
-STATUS  : Multi-CDN Online | 43 Games Supported
+DATE    : 11/23/2026
+STATUS  : Multi-CDN Online | 44 Games Supported
 
 [+] LATEST UPDATES (v2.6.5)
 • Console (F9): Format ringkas 2 baris tanpa emoji.
