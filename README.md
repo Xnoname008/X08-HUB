@@ -98,6 +98,11 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 
 ## 📝 Latest Changelog & Updates
 
+### v2.7.0 — Warnetopia Simulator Support & Loader Obfuscation Optimization (2026-11-23)
+- Game Baru: Dukungan skrip khusus Warnetopia: Warnet Simulator (106267220422944).
+- Loader AST: Optimasi GameRegistry dan pembersihan alias redundant untuk kompatibilitas WeAreDevs AST.
+- Kompilasi: 100% lulus obfuscasi pada Standalone Unified Hub Loader dan seluruh 44 game.
+
 ### v2.6.5 — Minimalist Console Logs & Streamlined Text Interface (2026-11-22)
 - Console (F9): Format ringkas 2 baris tanpa emoji.
 - Prefix: Standarisasi log [X08 Hub] & [X08 Universal].

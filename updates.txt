@@ -1,10 +1,8 @@
-VERSION : V2.6.5 (UNDETECTED & SECURE)
+VERSION : V2.7.0 (UNDETECTED & SECURE)
 DATE    : 11/23/2026
 STATUS  : Multi-CDN Online | 44 Games Supported
 
-[+] LATEST UPDATES (v2.6.5)
-• Console (F9): Format ringkas 2 baris tanpa emoji.
-• Prefix: Standarisasi log [X08 Hub] & [X08 Universal].
-• Performa: Optimasi kecepatan emisi log & hemat memori.
-• UI & Updates: Teks update dan notifikasi lebih singkat & jelas.
-• Dual-Repo: Otomatisasi push ke X08-HUB-DECODE & X08-HUB.
+[+] LATEST UPDATES (v2.7.0)
+• Game Baru: Dukungan skrip khusus Warnetopia: Warnet Simulator (106267220422944).
+• Loader AST: Optimasi GameRegistry dan pembersihan alias redundant untuk kompatibilitas WeAreDevs AST.
+• Kompilasi: 100% lulus obfuscasi pada Standalone Unified Hub Loader dan seluruh 44 game.
