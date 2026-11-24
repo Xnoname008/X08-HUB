@@ -98,6 +98,11 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 
 ## 📝 Latest Changelog & Updates
 
+### v2.7.2 — Warnetopia Anti-Conflict Coordinator & Independent Worker Loops (2026-11-24)
+- Anti-Bentrok Teleportasi: Koordinasi eksklusif antara Auto Farm Gift dan Auto Buka/Tutup Warnet agar tidak saling berebut CFrame dan ProximityPrompt.
+- Independent Worker Loop: Pemisahan session ID (GiftSid dan WarnetSid) sehingga kedua fitur dapat berjalan simultan tanpa saling mematikan.
+- Proximity Bypass: Interaksi instan tanpa teleportasi jika karakter sudah berada di dekat papan warnet.
+
 ### v2.7.1 — Warnetopia Open/Close Multi-Layer Detection & Auto-Reconciliation Engine (2026-11-24)
 - Deteksi Multi-Layer: Deteksi status Buka/Tutup cerdas berbasis ProximityPrompt (ActionText & ObjectText), atribut lot, dan HUD.
 - Auto-Reconciliation: Sinkronisasi aktif berkelanjutan menjaga status warnet selalu sinkron dengan toggle secara real-time.

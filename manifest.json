@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "timestamp": 1795503641,
-  "salt": "X08_SALT_92b75146074595be9122c88846c3ff8e",
+  "timestamp": 1795503946,
+  "salt": "X08_SALT_0efa073a677c1e67c48f3f0f71108bf5",
   "totalFiles": 49,
   "hashes": {
     "loader": "fb1bf3c1",
@@ -10,7 +10,7 @@
     "airflow_icons": "a2b13108",
     "i18n": "17db15cc",
     "game_103265940798818": "ee014109",
-    "game_106267220422944": "b5ae239a",
+    "game_106267220422944": "af16d06a",
     "game_106324368467440": "d2f91f5b",
     "game_107535308163741": "7e81daf6",
     "game_108419873026523": "afd58fe5",
