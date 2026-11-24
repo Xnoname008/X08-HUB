@@ -1,8 +1,8 @@
-VERSION : V2.7.0 (UNDETECTED & SECURE)
-DATE    : 11/23/2026
+VERSION : V2.7.1 (UNDETECTED & SECURE)
+DATE    : 11/24/2026
 STATUS  : Multi-CDN Online | 44 Games Supported
 
-[+] LATEST UPDATES (v2.7.0)
-• Game Baru: Dukungan skrip khusus Warnetopia: Warnet Simulator (106267220422944).
-• Loader AST: Optimasi GameRegistry dan pembersihan alias redundant untuk kompatibilitas WeAreDevs AST.
-• Kompilasi: 100% lulus obfuscasi pada Standalone Unified Hub Loader dan seluruh 44 game.
+[+] LATEST UPDATES (v2.7.1)
+• Deteksi Multi-Layer: Deteksi status Buka/Tutup cerdas berbasis ProximityPrompt (ActionText & ObjectText), atribut lot, dan HUD.
+• Auto-Reconciliation: Sinkronisasi aktif berkelanjutan menjaga status warnet selalu sinkron dengan toggle secara real-time.
+• Safe Positioning: Offset teleportasi aman di depan papan sign mencegah karakter menembus dinding.

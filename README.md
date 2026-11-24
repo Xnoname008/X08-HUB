@@ -98,6 +98,11 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 
 ## 📝 Latest Changelog & Updates
 
+### v2.7.1 — Warnetopia Open/Close Multi-Layer Detection & Auto-Reconciliation Engine (2026-11-24)
+- Deteksi Multi-Layer: Deteksi status Buka/Tutup cerdas berbasis ProximityPrompt (ActionText & ObjectText), atribut lot, dan HUD.
+- Auto-Reconciliation: Sinkronisasi aktif berkelanjutan menjaga status warnet selalu sinkron dengan toggle secara real-time.
+- Safe Positioning: Offset teleportasi aman di depan papan sign mencegah karakter menembus dinding.
+
 ### v2.7.0 — Warnetopia Simulator Support & Loader Obfuscation Optimization (2026-11-23)
 - Game Baru: Dukungan skrip khusus Warnetopia: Warnet Simulator (106267220422944).
 - Loader AST: Optimasi GameRegistry dan pembersihan alias redundant untuk kompatibilitas WeAreDevs AST.
