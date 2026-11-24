@@ -1,8 +1,10 @@
-VERSION : V2.7.2 (UNDETECTED & SECURE)
+VERSION : V2.7.3 (UNDETECTED & SECURE)
 DATE    : 11/24/2026
 STATUS  : Multi-CDN Online | 44 Games Supported
 
-[+] LATEST UPDATES (v2.7.2)
-• Anti-Bentrok Teleportasi: Koordinasi eksklusif antara Auto Farm Gift dan Auto Buka/Tutup Warnet agar tidak saling berebut CFrame dan ProximityPrompt.
-• Independent Worker Loop: Pemisahan session ID (GiftSid dan WarnetSid) sehingga kedua fitur dapat berjalan simultan tanpa saling mematikan.
-• Proximity Bypass: Interaksi instan tanpa teleportasi jika karakter sudah berada di dekat papan warnet.
+[+] LATEST UPDATES (v2.7.3)
+• Perbaikan Fatal Loader i18n: Memperbaiki bug early return pada LoadI18nModule() yang sebelumnya mengembalikan proxy fallback tanpa memuat modul, kini modul i18n 12 bahasa dimuat dan diaktifkan 100%.
+• Deteksi Multi-Sumber Akurat: Memperbaiki API Geo-Region menggunakan LocalizationService:GetCountryRegionForPlayerAsync(LocalPlayer) sehingga deteksi bahasa otomatis mengenali region pemain secara tepat.
+• Kamus Omni-Directional 12 Bahasa: Indexing seluruh 12 kolom bahasa pada I18N_MAP dan penambahan entri game script (Warnetopia, Rivals, Blade Ball, Arsenal, dll).
+• Pembersih Emoji & Normalizer: Fitur normalisasi otomatis pada Translate() untuk judul dengan prefix emoji/simbol dan keterangan dalam kurung.
+• Sinkronisasi Modul Otomatis: Pipeline build kini otomatis menyinkronkan DECODE/modules/ dan aset statis ke ENCODE/.

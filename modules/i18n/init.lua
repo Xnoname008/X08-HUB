@@ -414,17 +414,44 @@ local I18N_RAW = {
     { "Open Universal Exploit Suite", "Buka Fitur Universal Exploit", "Abrir Suite de Exploits Universales", "Abrir Suite Universal de Exploits", "Открыть Универсальный Набор Эксплойтов", "Ouvrir la Suite d'Exploits Universelle", "Universelle Exploit-Suite Öffnen", "Mở Bộ Công cụ Khai thác Chung", "Buksan ang Universal Exploit Suite", "ユニバーサルエクスプロイトスイートを開く", "유니버설 익스플로잇 스위트 열기", "打开通用功能套件" },
     { "Account Safety Priority #1", "Keamanan Akun Prioritas #1", "Seguridad de Cuenta Prioridad #1", "Segurança da Conta Prioridade #1", "Безопасность Аккаунта Приоритет #1", "Sécurité du Compte Priorité #1", "Kontosicherheit Priorität #1", "An toàn Tài khoản Ưu tiên #1", "Kaligtasan ng Account Priyoridad #1", "アカウントの安全最優先 #1", "계정 보안 최우선 #1", "账号安全第一优先级" },
     { "Use Universal Features", "Gunakan Fitur Universal", "Usar Funciones Universales", "Usar Recursos Universais", "Использовать Универсальные Функции", "Utiliser les Fonctions Universelles", "Universelle Funktionen Verwenden", "Sử dụng Tính năng Chung", "Gamitin ang Pangkalahatang Tampok", "ユニバーサル機能を使用", "유니버설 기능 사용", "使用通用功能" },
+    { "Status & Telemetry", "Status & Telemetri", "Estado y Telemetría", "Status e Telemetria", "Статус и Телеметрия", "Statut et Télémétrie", "Status & Telemetrie", "Trạng thái & Đo từ xa", "Katayuan at Telemetriya", "ステータス＆テレメトリ", "상태 및 텔레메트리", "状态与遥测" },
+    { "Internet Cafe Automation", "Automasi Warnet", "Automatización de Cibercafé", "Automação de Lan House", "Автоматизация Интернет-Кафе", "Automatisation Cybercafé", "Internetcafé-Automatisierung", "Tự động hóa Quán Net", "Awtomasyon ng Internet Cafe", "ネットカフェ自動化", "PC방 자동화", "网吧自动化" },
+    { "Auto Farm Gift", "Auto Farm Hadiah", "Auto Farm Regalos", "Auto Farm Presentes", "Авто-Фарм Подарков", "Farm Auto de Cadeaux", "Auto-Farm Geschenke", "Tự động Nhận Quà", "Auto Farm Regalo", "ギフト自動回収 (Auto Farm)", "선물 자동 파밍", "自动收集礼物" },
+    { "Auto Open / Close Cafe", "Auto Buka / Tutup Warnet", "Auto Abrir / Cerrar Cibercafé", "Auto Abrir / Fechar Lan House", "Авто Открытие / Закрытие Кафе", "Ouverture / Fermeture Auto Cybercafé", "Café automatisch öffnen / schließen", "Tự động Mở / Đóng Quán Net", "Auto Bukas / Sara ng Cafe", "ネットカフェ自動開店/閉店", "PC방 자동 개점/폐점", "自动开启/关闭网吧" },
+    { "Access Operator Desk", "Akses Operator Desk", "Acceso al Mostrador de Operador", "Acessar Balcão do Operador", "Доступ к Стойке Оператора", "Accéder au Bureau de l'Opérateur", "Zugriff auf Betreiberpult", "Truy cập Bàn Điều hành", "I-access ang Operator Desk", "オペレーターデスクにアクセス", "운영자 데스크 접속", "访问管理员电脑前台" },
+    { "Cafe Status", "Status Warnet", "Estado del Cibercafé", "Status da Lan House", "Статус Интернет-Кафе", "Statut du Cybercafé", "Internetcafé-Status", "Trạng thái Quán Net", "Katayuan ng Cafe", "ネットカフェ状態", "PC방 상태", "网吧状态" },
+    { "Match Telemetry & Status", "Telemetri & Status Match", "Telemetría y Estado de Partida", "Telemetria e Status da Partida", "Телеметрия и Статус Матча", "Télémétrie et Statut de Partie", "Match-Telemetrie & Status", "Đo từ xa & Trạng thái Trận", "Telemetriya at Katayuan ng Laban", "マッチ状態＆テレメトリ", "매치 상태 및 텔레메트리", "比赛遥测与状态" },
+    { "Runner Automation", "Otomatisasi Runner (Pelari)", "Automatización de Corredor", "Automação de Corredor", "Автоматизация Бегуна", "Automatisation Coureur", "Läufer-Automatisierung", "Tự động hóa Người chạy", "Awtomasyon ng Runner", "ランナー自動化", "러너 자동화", "逃亡者自动化" },
+    { "Catcher Automation", "Otomatisasi Catcher (Pemburu)", "Automatización de Cazador", "Automação de Caçador", "Автоматизация Ловца", "Automatisation Attrapeur", "Fänger-Automatisierung", "Tự động hóa Thợ săn", "Awtomasyon ng Catcher", "キャッチャー自動化", "추적자 자동화", "追捕者自动化" },
+    { "Visual & Hitbox Aids", "Alat Bantu Visual & Hitbox", "Ayudas Visuales y Hitbox", "Auxílios Visuais e Hitbox", "Визуальные Помощники и Хитбокс", "Aides Visuelles et Hitbox", "Visuelle Hilfen & Hitbox", "Hỗ trợ Hình ảnh & Hitbox", "Mga Tulong sa Visual at Hitbox", "視覚＆ヒットボックス支援", "시각 및 히트박스 보조", "视觉透视与判定辅助" },
+    { "Lobby & Rewards Automation", "Automasi Lobby & Hadiah", "Automatización de Sala y Recompensas", "Automação de Lobby e Recompensas", "Автоматизация Лобби и Наград", "Automatisation Lobby et Récompenses", "Lobby- & Belohnungs-Automatisierung", "Tự động sảnh & Phần thưởng", "Awtomasyon ng Lobby at Premyo", "ロビー＆報酬自動化", "로비 및 보상 자동화", "大厅与奖励自动化" },
+    { "Daily Spin Wheel", "Roda Hadiah (Daily Spin Wheel)", "Ruleta Diaria de Premios", "Roleta de Recompensas Diária", "Колесо Ежедневных Призов", "Roue des Récompenses Quotidienne", "Tägliches Glücksrad", "Vòng quay May mắn Hàng ngày", "Pang-araw-araw na Spin Wheel", "デイリールーレット報酬", "일일 룰렛 보상", "每日幸运转盘" },
+    { "Journey Pass Season Rewards", "Hadiah Musim (Journey Pass)", "Recompensas de Pase de Temporada", "Recompensas de Passe de Temporada", "Сезонные Награды (Journey Pass)", "Récompenses du Pass de Saison", "Saison-Pass-Belohnungen", "Phần thưởng Mùa (Journey Pass)", "Mga Premyo ng Season Pass", "シーズンパス報酬 (Journey Pass)", "시즌 패스 보상 (Journey Pass)", "赛季通行证奖励 (Journey Pass)" },
+    { "Auto Map Voting", "Voting Map Otomatis", "Votación Automática de Mapa", "Votação Automática de Mapa", "Авто-Голосование за Карту", "Vote Auto de la Carte", "Automatische Kartenabstimmung", "Tự động Bầu chọn Bản đồ", "Awtomatikong Boto sa Mapa", "マップ自動投票", "지도 자동 투표", "自动投票地图" },
+    { "Materials ESP", "ESP Material", "ESP de Materiales", "ESP de Materiais", "ESP Материалов", "ESP Matériaux", "Materialien-ESP", "ESP Vật liệu", "Materials ESP", "素材ESP", "재료 ESP", "材料物资ESP" },
+    { "NPC ESP", "ESP NPC", "ESP de NPCs", "ESP de NPCs", "ESP NPC", "ESP PNJ", "NPC-ESP", "ESP NPC", "NPC ESP", "NPC ESP", "NPC ESP", "NPC透视ESP" },
+    { "Auto Revive Teammates", "Auto Revive Rekan Tim", "Auto Revivir Compañeros", "Auto Reviver Companheiros", "Авто-Оживление Союзников", "Réanimation Auto des Équipiers", "Teammitglieder automatisch wiederbeleben", "Tự động cứu đồng đội ngã", "Awtomatikong Buhayin ang Kasama", "倒れた味方を自動蘇生", "쓰러진 팀원 자동 부활", "自动救援倒地队友" },
+    { "Auto Collect Gems", "Ambil Gem Otomatis", "Auto Recolectar Gemas", "Auto Coletar Gemas", "Авто-Сбор Самоцветов", "Collecte Auto de Gemmes", "Edelsteine automatisch sammeln", "Tự động Nhặt Đá quý", "Awtomatikong Kolektahin ang Gems", "ジェム自動収集", "보석 자동 수집", "自动收集宝石" },
+    { "Auto Rebirth", "Rebirth Otomatis", "Renacimiento Automático", "Renascimento Automático", "Авто-Перерождение", "Renaissance Auto (Rebirth)", "Automatischer Rebirth", "Tự động Tái sinh (Rebirth)", "Awtomatikong Rebirth", "自動転生 (Rebirth)", "자동 환생 (리버스)", "自动转生 (Rebirth)" },
+    { "Auto Sell All", "Jual Semua Otomatis", "Vender Todo Automáticamente", "Vender Tudo Automaticamente", "Авто-Продажа Всего", "Vente Auto de Tout", "Alles automatisch verkaufen", "Tự động Bán tất cả", "Awtomatikong Ibenta Lahat", "全アイテム自動売却", "모든 アイテム 자동 판매", "自动出售全部物品" },
+    { "Auto Cast & Reel", "Auto Lempar & Gulung Pancing", "Auto Lanzar y Recoger Caña", "Auto Lançar e Recolher Vara", "Авто-Заброс и Подсечка", "Lancer et Moulinet Auto", "Automatisches Auswerfen & Einholen", "Tự động Quăng & Kéo cần câu", "Auto Hagis at Hila ng Bingwit", "釣り糸自動キャスト＆巻き取り", "낚시대 자동 캐스팅 및 릴링", "自动抛竿与收线" },
+    { "Auto Magnet", "Magnet Otomatis", "Imán Automático", "Ímã Automático", "Авто-Магнит", "Aimant Auto", "Automatischer Magnet", "Hút đồ Tự động", "Awtomatikong Magnet", "自動マグネット吸引", "자동 자석 흡입", "自动吸附磁铁" },
+    { "Economy & Rebirth", "Ekonomi & Rebirth", "Economía y Renacimiento", "Economia e Renascimento", "Экономика и Перерождения", "Économie et Renaissance", "Wirtschaft & Rebirth", "Kinh tế & Tái sinh", "Ekonomiya at Rebirth", "経済＆転生", "경제 및 환생", "经济与转生系统" },
+    { "Bed ESP & Destroyer", "ESP Ranjang & Penghancur", "ESP y Destructor de Camas", "ESP e Destruidor de Camas", "ESP и Уничтожитель Кроватей", "ESP et Destructeur de Lits", "Betten-ESP & Zerstörer", "ESP & Phá Giường", "Bed ESP at Destroyer", "ベッドESP＆自動破壊", "침대 ESP 및 파괴기", "床位透视与自动拆床" },
+    { "Combat Aura (Killaura)", "Combat Aura (Killaura)", "Aura de Combate (Killaura)", "Aura de Combate (Killaura)", "Боевая Аура (Киллаура)", "Aura de Combat (Killaura)", "Kampf-Aura (Killaura)", "Hào quang Chiến đấu (Killaura)", "Combat Aura (Killaura)", "戦闘オーラ (Kill Aura)", "전투 오라 (킬오라)", "杀戮光环 (Killaura)" },
+    { "Resource Magnet", "Magnet Sumber Daya", "Imán de Recursos", "Ímã de Recursos", "Магнит Ресурсов", "Aimant à Ressources", "Ressourcen-Magnet", "Hút Tài nguyên", "Magnet ng Yaman", "リソース磁石吸引", "자원 자석 흡입", "资源物资磁吸" },
+    { "Combat & Weapon Engine", "Engine Tempur & Senjata", "Motor de Combate y Armas", "Motor de Combate e Armas", "Движок Боя и Оружия", "Moteur de Combat et d'Armes", "Kampf- & Waffen-Engine", "Động cơ Chiến đấu & Vũ khí", "Combat at Weapon Engine", "戦闘＆武器エンジン", "전투 및 무기 엔진", "战斗与武器强化引擎" },
+    { "Enemy Visuals & ESP", "Visual & ESP (Khusus Musuh)", "Visuales y ESP (Solo Enemigos)", "Visuais e ESP (Apenas Inimigos)", "Визуалы и ESP (Только Враги)", "Visuels et ESP (Ennemis Uniquement)", "Visuelles & ESP (Nur Feinde)", "Hình ảnh & ESP (Chỉ Kẻ địch)", "Mga Visual at ESP (Kaaway Lamang)", "敵専用視覚効果＆ESP", "적 전용 비주얼 및 ESP", "敌人专属视觉与ESP透视" },
 }
 local I18N_MAP = {}
 for i = 1, #I18N_RAW do
     local row = I18N_RAW[i]
-    local enVal = row[1]
-    local idVal = row[2]
-    I18N_MAP[enVal] = row
-    I18N_MAP[string.lower(enVal)] = row
-    if idVal and idVal ~= enVal then
-        I18N_MAP[idVal] = row
-        I18N_MAP[string.lower(idVal)] = row
+    for c = 1, #row do
+        local val = row[c]
+        if type(val) == "string" and val ~= "" then
+            I18N_MAP[val] = row
+            I18N_MAP[string.lower(val)] = row
+        end
     end
 end
 
@@ -528,8 +555,10 @@ function X08I18n:DetectLocale()
     -- Sumber 4: Geo-Region Country Code (Fallback pintar jika locale ter-lock ke "en")
     pcall(function()
         local loc = game:GetService("LocalizationService")
-        if loc and type(loc.GetCountryRegion) == "function" then
-            local country = loc:GetCountryRegion()
+        local players = game:GetService("Players")
+        local lp = players and players.LocalPlayer
+        if loc and lp and type(loc.GetCountryRegionForPlayerAsync) == "function" then
+            local country = loc:GetCountryRegionForPlayerAsync(lp)
             local mapped = self:MapCountryToLocale(country)
             if mapped then
                 detected = mapped
@@ -626,15 +655,12 @@ function X08I18n:RegisterTranslations(newRows)
     if type(newRows) ~= "table" then return end
     for _, row in ipairs(newRows) do
         if type(row) == "table" and #row >= 1 then
-            local enVal = row[1]
-            local idVal = row[2]
-            if enVal then
-                self.CustomMap[enVal] = row
-                self.CustomMap[string.lower(enVal)] = row
-            end
-            if idVal and idVal ~= enVal then
-                self.CustomMap[idVal] = row
-                self.CustomMap[string.lower(idVal)] = row
+            for c = 1, #row do
+                local val = row[c]
+                if type(val) == "string" and val ~= "" then
+                    self.CustomMap[val] = row
+                    self.CustomMap[string.lower(val)] = row
+                end
             end
         end
     end
@@ -642,12 +668,37 @@ end
 
 function X08I18n:Translate(text)
     if type(text) ~= "string" or text == "" then return text end
+    local lang = self.CurrentLanguage or "en"
+    local idx = I18N_LANG_INDEX[lang] or 1
+
+    -- 1. Direct O(1) Lookup
     local row = self.CustomMap[text] or self.CustomMap[string.lower(text)] or I18N_MAP[text] or I18N_MAP[string.lower(text)]
     if row then
-        local lang = self.CurrentLanguage or "en"
-        local idx = I18N_LANG_INDEX[lang] or 1
         return row[idx] or row[1] or text
     end
+
+    -- 2. Normalisasi Prefix/Suffix Emojis & Simbol
+    -- Contoh: "🎯 Combat & Weapon Engine", "⚡ Automasi Warnet", "🎁 Daily Rewards"
+    local pfx, core, sfx = string.match(text, "^([^%w%z]*)(.-)([%s%p%z]*)$")
+    if core and core ~= "" and core ~= text then
+        local coreRow = self.CustomMap[core] or self.CustomMap[string.lower(core)] or I18N_MAP[core] or I18N_MAP[string.lower(core)]
+        if coreRow then
+            local transCore = coreRow[idx] or coreRow[1] or core
+            return (pfx or "") .. transCore .. (sfx or "")
+        end
+    end
+
+    -- 3. Normalisasi Penjelasan dalam Kurung jika ada
+    -- Contoh: "Otomatisasi Runner (Pelari)" -> base "Otomatisasi Runner"
+    local base, paren = string.match(text, "^(.-)%s*(%b())$")
+    if base and base ~= "" then
+        local baseRow = self.CustomMap[base] or self.CustomMap[string.lower(base)] or I18N_MAP[base] or I18N_MAP[string.lower(base)]
+        if baseRow then
+            local transBase = baseRow[idx] or baseRow[1] or base
+            return transBase .. " " .. paren
+        end
+    end
+
     return text
 end
 

@@ -98,6 +98,13 @@ loadstring(game:HttpGet("https://cdn.statically.io/gh/Xnoname008/X08-HUB/main/lo
 
 ## 📝 Latest Changelog & Updates
 
+### v2.7.3 — Auto Translate Engine Deep Fix & Multi-Source Omni-Directional Localization (2026-11-24)
+- Perbaikan Fatal Loader i18n: Memperbaiki bug early return pada LoadI18nModule() yang sebelumnya mengembalikan proxy fallback tanpa memuat modul, kini modul i18n 12 bahasa dimuat dan diaktifkan 100%.
+- Deteksi Multi-Sumber Akurat: Memperbaiki API Geo-Region menggunakan LocalizationService:GetCountryRegionForPlayerAsync(LocalPlayer) sehingga deteksi bahasa otomatis mengenali region pemain secara tepat.
+- Kamus Omni-Directional 12 Bahasa: Indexing seluruh 12 kolom bahasa pada I18N_MAP dan penambahan entri game script (Warnetopia, Rivals, Blade Ball, Arsenal, dll).
+- Pembersih Emoji & Normalizer: Fitur normalisasi otomatis pada Translate() untuk judul dengan prefix emoji/simbol dan keterangan dalam kurung.
+- Sinkronisasi Modul Otomatis: Pipeline build kini otomatis menyinkronkan DECODE/modules/ dan aset statis ke ENCODE/.
+
 ### v2.7.2 — Warnetopia Anti-Conflict Coordinator & Independent Worker Loops (2026-11-24)
 - Anti-Bentrok Teleportasi: Koordinasi eksklusif antara Auto Farm Gift dan Auto Buka/Tutup Warnet agar tidak saling berebut CFrame dan ProximityPrompt.
 - Independent Worker Loop: Pemisahan session ID (GiftSid dan WarnetSid) sehingga kedua fitur dapat berjalan simultan tanpa saling mematikan.
